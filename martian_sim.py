@@ -13,7 +13,7 @@ while True:
             pygame.quit()
             raise SystemExit
 
-    screen.fill("purple")  
+    screen.fill("red")  
 
     pygame.display.flip()   
     clock.tick(240)         
