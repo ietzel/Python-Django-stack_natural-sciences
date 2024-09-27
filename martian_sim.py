@@ -2,7 +2,7 @@ import pygame
 
 pygame.init()
 
-screen = pygame.display.set_mode((1280,720))
+screen = pygame.display.set_mode((2048,1024))
 
 clock = pygame.time.Clock()
 
@@ -13,7 +13,7 @@ while True:
             pygame.quit()
             raise SystemExit
 
-    screen.fill("purple")  # Fill the display with a solid color
+    screen.fill("purple")  
 
-    pygame.display.flip()  # Refresh on-screen display
-    clock.tick(60)         # wait until next frame (at 60 FPS)
+    pygame.display.flip()   
+    clock.tick(240)         
