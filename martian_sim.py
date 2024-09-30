@@ -16,4 +16,4 @@ while True:
     screen.fill("red")  
 
     pygame.display.flip()   
-    clock.tick(240)         
+    clock.tick(40)         
