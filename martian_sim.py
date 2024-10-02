@@ -12,10 +12,10 @@ class Rover:
     self.image = image
 
 r1 = Rover("Sixwheeler", "1.jpg")
-r2 = Rover("Camdrone", "2.jpg")
-r3 = Rover("Invertebrae", "3.jpg")
+r2 = Rover("Flier", "2.jpg")
+r3 = Rover("Slitherer", "3.jpg")
 r4 = Rover("Hopper", "4.jpg")
-r5 = Rover("5", "5.jpg")
+r5 = Rover("Crawler", "5.jpg")
 r6 = Rover("6", "6.jpg")
 
 while True:
