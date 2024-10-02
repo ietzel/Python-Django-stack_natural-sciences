@@ -11,7 +11,7 @@ class Rover:
     self.name = name
     self.image = image
 
-r1 = Rover("Sixwheeler", "1.jpg")
+r1 = Rover("Driver", "1.jpg")
 r2 = Rover("Flier", "2.jpg")
 r3 = Rover("Slitherer", "3.jpg")
 r4 = Rover("Hopper", "4.jpg")
