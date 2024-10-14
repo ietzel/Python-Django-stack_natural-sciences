@@ -1,3 +1,15 @@
+import bs4
+
+with open("index.html") as inf:
+    txt = inf.read()
+    soup = bs4.BeautifulSoup(txt)
+
+new_link = soup.new_tag("link", rel="icon", type="image/png", href="img/tor.png")
+soup.head.append(new_link)
+
+with open("existing_file.html", "w") as outf:
+    outf.write(str(soup))
+
 class Rover:
   def __init__(self, name):
     self.name = name
