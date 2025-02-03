@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 
-t1 = "Ecosphere\nEcosphere, Biome, Ecosystem, Community, Population, Organism.\n\n"
+t1 = "Environmental Science\nEcosphere, Biome, Ecosystem, Community, Population, Organism. There are various trophic levels and elemental cycles.  \n\n"
 t2 = "Mars\nDriver, Flier, Slitherer, Hopper, Crawler, and Runner meet up for the cave exploration mission. The first one drives the other 5 to the cavity, and hoists them down. They find traces of water, and a big place for settlement. Findings reported...\n\n"
 t3 = "Quantum Physics\nHydrogen atom decays to proton + neutrino + photon.\n\n"
 t4 = "Resource Conservation\nFrom a score of 100, deduct 1 for every flush per day above 1, every minute of showering above 5, outlets plugged in above 3, etc.\n\n"
